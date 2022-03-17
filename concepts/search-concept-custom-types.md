@@ -8,7 +8,7 @@ ms.prod: "search"
 
 # Use the Microsoft Search API to search custom types imported using Microsoft Graph connectors (preview) 
 
-Use the Microsoft Search API to search across content ingested and indexed by [Microsoft Graph connectors](/microsoftsearch/connectors-overview). The content is imported either via [built-in connectors](/microsoftsearch/connectors-gallery) provided by Microsoft, or via custom connectors implemented using the [Microsoft Graph connectors ingestion API](/graph/api/resources/indexing-api-overview?view=graph-rest-beta&preserve-view=true).
+Use the Microsoft Search API to search across content ingested and indexed by [Microsoft Graph connectors](/microsoftsearch/connectors-overview). The content is imported either via [built-in connectors](/microsoftsearch/connectors-gallery) provided by Microsoft, or via custom connectors implemented using the [Microsoft Graph connectors ingestion API](/graph/api/resources/indexing-api-overview?view=graph-rest-beta&preserve-view=true). You can also implement custom connectors using the Microsoft Graph connectors SDK powered by Microsoft's Graph connector platform for [Microsoft built connectors](/microsoft-search/connectors/?publisher=Microsoft&category=&query=) and M365 Admin Center. The SDK is currently in private beta and you can join the preview program using the [sign-up form](https://aka.ms/gcsdkpreview).
 
 [!INCLUDE [search-schema-updated](../includes/search-schema-updated.md)]
 
