@@ -11,7 +11,7 @@ ms.prod: "search"
 Use the Microsoft Search API to search across content ingested and indexed by [Microsoft Graph connectors](/microsoftsearch/connectors-overview). The content is imported either via [built-in connectors](/microsoftsearch/connectors-gallery) provided by Microsoft, or via custom connectors implemented using the [Microsoft Graph connectors ingestion API](/graph/api/resources/indexing-api-overview?view=graph-rest-beta&preserve-view=true). 
 
 > [!NOTE]
-> You can also implement custom connectors using the Microsoft Graph connectors SDK powered by Microsoft's Graph connector platform for [built-in connectors](/microsoft-search/connectors/?publisher=Microsoft&category=&query=) and the Microsoft 365 Admin Center. The SDK is currently in private preview; to join the preview program, complete the [sign-up form](https://aka.ms/gcsdkpreview).
+> You can also implement custom connectors using the Microsoft Graph connectors SDK powered by Microsoft Graph connector platform for [built-in connectors](https://www.microsoft.com/microsoft-search/connectors/?publisher=Microsoft&category=) and the Microsoft 365 Admin Center. The Microsoft Graph connectors SDK is currently in private preview; to join the preview program, complete the [sign-up form](https://aka.ms/gcsdkpreview).
 
 [!INCLUDE [search-schema-updated](../includes/search-schema-updated.md)]
 
