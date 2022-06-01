@@ -29,7 +29,7 @@ TODOSEARCHAPI - Bug 1653398
 In addition, you can aggregate search results based on properties in an [externalItem](/graph/api/resources/externalitem) that are numeric or string type, and that are set to be refinable in the [schema](/graph/api/resources/schema). For more information, see [Refine search results using aggregations](search-concept-aggregation.md).
 
 > [!NOTE]
-> You can also implement custom connectors using the Microsoft Graph connectors SDK powered by [Microsoft Graph connector platform](/MicrosoftSearch/graph-connector-agent) for [built-in connectors provided by Microsoft](https://www.microsoft.com/microsoft-search/connectors/?publisher=Microsoft&category=) and the Microsoft 365 Admin Center. The Microsoft Graph connectors SDK is currently in private preview; to join the preview program, complete the [sign-up form](https://aka.ms/gcsdkpreview).
+> You can also implement custom connectors using the Microsoft Graph connectors SDK powered by [Microsoft Graph connector platform](/MicrosoftSearch/graph-connector-agent) for [built-in connectors provided by Microsoft](https://www.microsoft.com/microsoft-search/connectors/?publisher=Microsoft&category=) through the Microsoft 365 Admin Center. The Microsoft Graph connectors SDK is currently in private preview; to join the preview program, complete the [sign-up form](https://aka.ms/gcsdkpreview).
 
 ## Example 1: Retrieve items using Azure SQL built-in connector
 
