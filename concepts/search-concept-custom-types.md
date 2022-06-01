@@ -10,9 +10,6 @@ ms.prod: "search"
 
 Use the Microsoft Search API to search across content ingested and indexed by [Microsoft Graph connectors](/microsoftsearch/connectors-overview). The content is imported either via [built-in connectors](/microsoftsearch/connectors-gallery) provided by Microsoft, or via custom connectors implemented using the [Microsoft Graph connectors ingestion API](/graph/api/resources/indexing-api-overview?view=graph-rest-beta&preserve-view=true). 
 
-> [!NOTE]
-> You can also implement custom connectors using the Microsoft Graph connectors SDK powered by [Microsoft Graph connector platform](/MicrosoftSearch/graph-connector-agent) for [built-in connectors](https://www.microsoft.com/microsoft-search/connectors/?publisher=Microsoft&category=) and the Microsoft 365 Admin Center. The Microsoft Graph connectors SDK is currently in private preview; to join the preview program, complete the [sign-up form](https://aka.ms/gcsdkpreview).
-
 [!INCLUDE [search-schema-updated](../includes/search-schema-updated.md)]
 
 After the content has been imported and indexed, you can use the search API to query the content.
@@ -30,6 +27,9 @@ TODOSEARCHAPI - Bug 1653398
 - The **fields** property to include the fields in the external item to retrieve. Note that if you do not include any **fields** in the request, the response will contain all the fields marked as *retrievable* in the data schema specified for the specified connections in the **contentSources** property.
 
 In addition, you can aggregate search results based on properties in an [externalItem](/graph/api/resources/externalitem) that are numeric or string type, and that are set to be refinable in the [schema](/graph/api/resources/schema). For more information, see [Refine search results using aggregations](search-concept-aggregation.md).
+
+> [!NOTE]
+> You can also implement custom connectors using the Microsoft Graph connectors SDK powered by [Microsoft Graph connector platform](/MicrosoftSearch/graph-connector-agent) for [built-in connectors provided by Microsoft](https://www.microsoft.com/microsoft-search/connectors/?publisher=Microsoft&category=) and the Microsoft 365 Admin Center. The Microsoft Graph connectors SDK is currently in private preview; to join the preview program, complete the [sign-up form](https://aka.ms/gcsdkpreview).
 
 ## Example 1: Retrieve items using Azure SQL built-in connector
 
